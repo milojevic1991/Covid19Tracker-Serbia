@@ -1,0 +1,38 @@
+.infoCard {
+  width: 25%;
+  margin: 1.5rem auto;
+  padding: 2rem 0;
+  box-shadow: 0 0 33px #ececec;
+}
+
+.mainInfoText {
+  margin: 5rem 0;
+  background-color: #fafafa;
+  text-align: left;
+  padding: 3rem;
+}
+.mainInfoText .ant-typography {
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .infoCard {
+    width: 90%;
+  }
+
+  .mainInfoText {
+    padding: 3rem 0;
+  }
+
+  .mainInfoText .ant-typography {
+    
+    width: 90%;
+  
+  }
+  
+     
+
+}

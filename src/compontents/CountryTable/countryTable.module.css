@@ -1,0 +1,13 @@
+.mainTable{
+   width: 50%;
+   margin:0 auto;
+   position: relative;
+
+}
+
+@media (max-width: 768px) {
+   .mainTable{
+      width: 100%;
+  
+   }
+}

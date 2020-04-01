@@ -1,0 +1,14 @@
+.mainChart{
+   width: 85%;
+   margin:5rem auto;
+   
+
+}
+
+@media (max-width: 768px) {
+   .mainChart{
+     display: none;
+      
+   
+   }
+}

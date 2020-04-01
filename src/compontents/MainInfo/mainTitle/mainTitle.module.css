@@ -1,0 +1,28 @@
+a {
+  color: #c3c337;
+  font-weight: 500;
+  text-decoration: underline;
+  transition: 0.2s all;
+}
+
+a:hover {
+  color: #767608 !important;
+  text-decoration: underline;
+}
+
+.linkRow {
+  display: flex;
+  justify-content: space-evenly;
+  width: 45%;
+  margin: 2rem auto;
+}
+
+
+@media (max-width:768px){
+    
+   .linkRow {
+      display: flex;
+      flex-direction: column;
+    }
+    
+}
